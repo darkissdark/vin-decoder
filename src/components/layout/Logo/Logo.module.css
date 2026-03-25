@@ -1,0 +1,12 @@
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-heading);
+}
+
+@media (min-width: 520px) {
+  .logo {
+    font-size: 22px;
+  }
+}

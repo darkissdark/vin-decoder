@@ -1,0 +1,27 @@
+.panel {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background-color: var(--color-surface);
+}
+
+.sectionTitle {
+  margin: 0 0 12px;
+  font-size: 20px;
+  color: var(--color-heading);
+}
+
+.emptyText {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.historyList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

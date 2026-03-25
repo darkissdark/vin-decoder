@@ -1,0 +1,35 @@
+.button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 120ms ease,
+    opacity 120ms ease,
+    background-color 120ms ease;
+}
+
+.button:hover {
+  opacity: 0.95;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.primary {
+  color: #fff;
+  background-color: var(--color-accent);
+}
+
+.secondary {
+  color: var(--color-heading);
+  background-color: var(--color-muted);
+}

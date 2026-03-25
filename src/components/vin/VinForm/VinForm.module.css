@@ -1,0 +1,35 @@
+.form {
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background-color: var(--color-surface);
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--color-heading);
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.input {
+  min-width: 0;
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+@media (min-width: 621px) {
+  .formRow {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+}

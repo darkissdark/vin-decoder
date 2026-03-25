@@ -1,0 +1,36 @@
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.link:hover,
+.link:focus-visible {
+  background-color: var(--color-muted);
+}
+
+.link:global(.active) {
+  color: var(--color-heading);
+  background-color: var(--color-muted);
+}
+
+@media (min-width: 520px) {
+  .link {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}

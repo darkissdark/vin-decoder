@@ -1,0 +1,16 @@
+.title {
+  margin: 0 0 8px;
+  font-size: clamp(26px, 3.5vw, 36px);
+  color: var(--color-heading);
+}
+
+.subtitle,
+.message {
+  margin: 0 0 16px;
+  color: var(--color-text);
+}
+
+.error {
+  margin: 0 0 16px;
+  color: var(--color-danger);
+}
