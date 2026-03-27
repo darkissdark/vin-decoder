@@ -4,11 +4,11 @@ Single-page React application for decoding vehicle VIN codes via the NHTSA (vPIC
 
 ## Live demo
 
-- `https://<your-project>.vercel.app/`
+- `https://vin-decoder-rosy.vercel.app/`
 
 ## GitHub repository description (copy/paste)
 
-VIN Decoder (React SPA) — decode vehicle details by VIN via NHTSA vPIC API. Live demo: `https://<your-project>.vercel.app/`
+VIN Decoder (React SPA) — decode vehicle details by VIN via NHTSA vPIC API. Live demo: `https://vin-decoder-rosy.vercel.app/`
 
 ## Features
 
